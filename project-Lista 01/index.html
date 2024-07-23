@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tarefas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <h1>Lista de tarefas</h1>
+        <form id="task-form">
+            <input type="text" id="task-input" placeholder="New Task" required>
+            <input type="text" id="category-input" placeholder="Category" required>
+            <input type="date" id="date-input" required>
+            <button type="submit">Add Task</button>
+        </form>
+        <div id="task-tables">
+            <ul id="task-list-1" class="task-list"></ul>
+            <ul id="task-list-2" class="task-list"></ul>
+        </div>
+    </div>
+    <div class="footer-content">
+        <div class="social-icons">
+            <a href="https://github.com/Joaofernandes-DEV"><i class="bx bxl-github"></i></a>
+            <a href="https://www.linkedin.com/in/jo%C3%A3o-vitor-teixeira-fernandes-bb88012b3/"><i class="bx bxl-linkedin-square"></i></a>
+            <a href="https://www.instagram.com/jotadev__/?utm_source=ig_web_button_share_sheet"><i class="bx bxl-instagram-alt"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61561253610064&sk=about"><i class="bx bxl-facebook"></i></a>
+        </div>
+        <footer class="footer">
+            <p class="copyright">@ Joao Vitor T. Fernandes | All Rights Reserved</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+body {
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #000;
+}
+
+.container {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+    margin-top: auto; /* Ensures the container is centered */
+    margin-bottom: auto; /* Ensures the container is centered */
+}
+
+h1 {
+    color: #1e00ff; /* rosa */
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input, button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #00f7b8; /* verde água */
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00c896;
+}
+
+#task-tables {
+    display: flex;
+    justify-content: space-between;
+}
+
+.task-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 10px;
+}
+
+li {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.category {
+    font-size: 14px;
+    color: #888;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto; /* Ensures the footer stays at the bottom */
+    width: 100%;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.social-icons a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    background: transparent;
+    border: 2px solid #1e00ff; /* rosa */
+    font-size: 24px;
+    border-radius: 50%;
+    color: #1e00ff; /* rosa */
+    margin: 0 10px;
+    transition: 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #fff;
+    background-color: #1e00ff; /* rosa */
+    box-shadow: 0 0 10px #1e00ff; /* rosa */
+}
+
+.footer {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer .copyright {
+    color: #000;
+}
